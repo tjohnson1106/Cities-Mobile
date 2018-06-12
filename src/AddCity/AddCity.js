@@ -44,7 +44,6 @@ class AddCity extends Component {
   };
 
   render() {
-    console.log("props:", this.props);
     return (
       <View style={styles.root}>
         <Text style={styles.heading}>Find Your City</Text>
@@ -56,7 +55,7 @@ class AddCity extends Component {
         />
         <TextInput
           style={styles.input}
-          placeholder="City Name"
+          placeholder="Country Name"
           value={this.state.country}
           onChangeText={val => this.onChangeText("country", val)}
         />
