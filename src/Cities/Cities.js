@@ -23,6 +23,7 @@ class Cities extends Component {
     this.props.navigation.navigate("City", { city });
   };
   render() {
+    console.log("props:", this.props);
     return (
       <ScrollView>
         <View>
